@@ -1,0 +1,64 @@
+/* Colors */
+:root {
+  --primary: black; 
+  --secondary: #fff;
+  --text-light: #eee; 
+}
+
+body {
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100wv;
+  margin: auto;
+}
+
+.overall{
+  width: 80vw;
+  margin-left: auto
+}
+
+.user-table {
+  margin: 0 auto;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.3); 
+}
+
+.user-thead {
+  background: var(--primary); 
+  color: var(--text-light);
+}
+
+
+
+button {
+  background: var(--primary); 
+}
+
+.edit{
+  background: rgb(51, 179, 51);
+  color: white;
+}
+
+.delete{
+  background: rgb(223, 69, 69);
+  color: white;
+}
+
+.save{
+  background: rgb(69, 192, 223);
+  color: white;
+}
+
+/* Align */
+.user-table,
+.search-input, 
+.pagination {
+  margin:10px 30px;  
+  width: 90%;
+}
+
+.search-input {
+  height: 25px;
+  width: 50vw;
+  border: 1px solid var(--primary);
+  font-family: 'Courier New', Courier, monospace;
+}
+
